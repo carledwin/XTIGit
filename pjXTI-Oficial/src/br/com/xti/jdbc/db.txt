@@ -1,0 +1,99 @@
+JDBC Java DataBase Connectivity - tecnologia java para se conectar com banco de dados
+JDBC - Drive para o banco especifico, Mysql, postgreSql....
+JDBC - biblioteca java para se comunicar com o banco de dados
+
+
+
+SQL
+
+DB - grupo organizado de arquivos relacionados, chama-se banco de dados, mais utilizados relacionais 
+DB@ IBM
+Oracle - pago
+Sybase
+Mysql
+SqlServer
+PostgreSql - livre * 
+
+SGBD - programas criados para gerencias bancos de dados
+
+Tabela com linhas e colunas para armazenar os dados
+
+OrackeXE112
+
+via Executar Linha de Comandos SQL
+
+--
+conectar ao oracle - senha de administrador inserida no momento da instalação
+--usuario/senha
+connect system/xti123 - Enter -> Connectado
+
+
+--criar usuario nome e senha
+create user xti identified by xti123; -> usuario criado
+
+--atribuir privilegios ao usuario
+grant connect, resource to xti; -> Concesso bem-sucedida
+
+--transformar o usuario administrador do banco - DBA
+grant dba to xti; -> Concesso bem-sucedida.
+
+--conectar-se ao banco com o novo usuario
+connect xti/xti123
+
+
+--criar table no banco
+create table pessoa(
+	codigo     number(2,0) not null,
+	nome       varchar2(15),
+	sexo       char(1),
+	email      varchar2(30),
+	constraint pk1 primary key(codigo)
+	);
+
+
+--inserir registros na tabela
+insert into pessoa values(1, 'Carl Edwin', 'M', 'carledwinj@gmail.com');
+insert into pessoa values(2, 'Carl2 Edwin', 'M', 'carledwinj2@gmail.com');
+
+--selecionar registros na tabela
+select * from pessoa;
+
+----------------------------------------------------------
+Conexoes com os SGBDs = url de conexão
+			protocolo/subprotocolo/servidor/porta/banco
+DB2        jdbc:db2:servidor:prota/banco
+Oracle     jdbc:oracle:thin:@servidor:porta:banco
+PostgreSQL jdbc:postgresql://servidor:porta/banco
+SQL Server jdbc:sqlserver://servidor:porta;databaseName=banco
+Mysql      jdbc:mysql://servidor:porta/banco
+Java DB    jdbc:derby://servidor:porta/banco
+Sybase     jdbc:sybase:Tds:servidor:porta/banco
+
+
+---------------------------------------------
+delete from pessoa where codigo > 6;
+
+-------------------------------------------
+CRUD - CREATE, READ, UPDATE, DELETE.
+	   Criar, Ler, Alterar, Excluir dados.
+--------------------------------------------------
+create table conta(
+				numero number(2,0) not null,
+				cliente varchar(15),
+				saldo number(10, 2),
+				constraint pkc primary key(numero)
+				);
+
+
+/*select * from PESSOA;*/
+/*delete from PESSOA where codigo > 6;*/
+
+select * from CONTA;
+
+/*delete from CONTA;*/
+
+-----------------------------------------------------------
+
+Transação - entende que um conjunto de operações de banco de dados deve ser tratadas 
+como uma unica operação e caso uma delas falhe todas serão desfeitas e a transação desfeita, 
+mas se todas  forem bem sucedidas a transação deve ser confirmada.

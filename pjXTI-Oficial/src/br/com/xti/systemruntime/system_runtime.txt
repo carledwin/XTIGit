@@ -1,0 +1,69 @@
+System & Runtime
+
+Para executar programas diretamente no sistema operacioal.
+
+--alterar as propriedades do sistema operacioal, receber uma senha diretamente via prompt de comando...
+
+são funcionalidades da classe System e Runtime
+
+---------------------------------------------------------
+
+Todas as chaves do sistema - System
+
+java.runtime.name = Java(TM) SE Runtime Environment
+sun.boot.library.path = C:\Java\jdk1.7.0_60\jre\bin
+java.vm.version = 24.60-b09
+java.vm.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+path.separator = ;
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg = sun.io
+user.country = BR
+user.script = 
+sun.java.launcher = SUN_STANDARD
+sun.os.patch.level = Service Pack 1
+java.vm.specification.name = Java Virtual Machine Specification
+user.dir = C:\xti\kepler\pjXTI-Oficial
+java.runtime.version = 1.7.0_60-b19
+java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs = C:\Java\jdk1.7.0_60\jre\lib\endorsed
+os.arch = amd64
+java.io.tmpdir = C:\Users\CARLED~1\AppData\Local\Temp\
+line.separator = 
+
+java.vm.specification.vendor = Oracle Corporation
+user.variant = 
+os.name = Windows 7
+sun.jnu.encoding = Cp1252
+java.library.path = C:\Java\jdk1.7.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\git\cmd;C:\Java\jdk1.7.0_60\bin;;.
+java.specification.name = Java Platform API Specification
+java.class.version = 51.0
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+os.version = 6.1
+user.home = C:\Users\Carl Edwin
+user.timezone = 
+java.awt.printerjob = sun.awt.windows.WPrinterJob
+file.encoding = Cp1252
+java.specification.version = 1.7
+java.class.path = C:\xti\kepler\pjXTI-Oficial\bin
+user.name = Carl Edwin
+java.vm.specification.version = 1.7
+sun.java.command = br.com.systemruntime.Sistemas
+java.home = C:\Java\jdk1.7.0_60\jre
+sun.arch.data.model = 64
+user.language = pt
+java.specification.vendor = Oracle Corporation
+awt.toolkit = sun.awt.windows.WToolkit
+java.vm.info = mixed mode
+java.version = 1.7.0_60
+java.ext.dirs = C:\Java\jdk1.7.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+sun.boot.class.path = C:\Java\jdk1.7.0_60\jre\lib\resources.jar;C:\Java\jdk1.7.0_60\jre\lib\rt.jar;C:\Java\jdk1.7.0_60\jre\lib\sunrsasign.jar;C:\Java\jdk1.7.0_60\jre\lib\jsse.jar;C:\Java\jdk1.7.0_60\jre\lib\jce.jar;C:\Java\jdk1.7.0_60\jre\lib\charsets.jar;C:\Java\jdk1.7.0_60\jre\lib\jfr.jar;C:\Java\jdk1.7.0_60\jre\classes
+java.vendor = Oracle Corporation
+file.separator = \
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = little
+xti.curso.java.version = 1.0.0
+sun.desktop = windows
+sun.cpu.isalist = amd64
+ 

@@ -1,0 +1,24 @@
+
+
+Disponibilizar o programa em um arquivo único
+
+JAR - java archive
+
+classpath - caminho das classes - muito importante para a jvm saber onde estão as classes que se quer executar em produção
+
+
+um jar 
+C:\xti\kepler\pjXTI-Oficial>java -classpath c:\xti\lib\xti.jar br.com.xti.gui.Calculadora
+
+mais de um jar
+C:\xti\kepler\pjXTI-Oficial>java -classpath c:\xti\lib\xti.jar; c:\xti\lib\xti.jar br.com.xti.gui.Calculadora
+
+linux, mac (:) para separar os jars
+
+padrao de nome para o jar para informar a versão
+
+xti-1.0.jar
+ou
+xti-20140712.jar
+
+
